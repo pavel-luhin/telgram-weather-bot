@@ -1,0 +1,23 @@
+{
+  "name": "telgram-weather-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "weatherbot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xinevic/telgram-weather-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xinevic/telgram-weather-bot/issues"
+  },
+  "homepage": "https://github.com/xinevic/telgram-weather-bot#readme",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.29.0",
+    "properties-reader": "0.0.16"
+  }
+}
