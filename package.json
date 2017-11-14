@@ -4,7 +4,8 @@
   "description": "",
   "main": "weatherbot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm start.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/xinevic/telgram-weather-bot#readme",
   "dependencies": {
+    "i18n": "^0.8.3",
     "mongoose": "^4.13.1",
     "node-telegram-bot-api": "^0.29.0",
     "properties-reader": "0.0.16"

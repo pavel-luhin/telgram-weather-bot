@@ -4,13 +4,14 @@ let recipientSchema = new mongoose.Schema({
 	firstName: 'string',
 	lastName: 'string',
 	username: 'string',
-	telegramId: 'string',
-	location: 'string',
-	chatId: 'string'
+	chatId: 'string',
+	language: 'string',
+	latitude: 'number',
+	longitude: 'number'
 });
 
-recipientSchema.statics.findByChatId = async function (chatId) {
-	return await this.findOne({chatId}).exec();
+recipientSchema.statics.findByChatId = function (chatId) {
+	return this.findOne({chatId}).exec();
 }
 
 let Recipient = mongoose.model('Recipient', recipientSchema);
